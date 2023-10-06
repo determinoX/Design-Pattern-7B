@@ -10,13 +10,12 @@ package GOF.Decorator;
  * @author FA20-BSE-042
  */
 public class DecoratorPatternDemo {
-   public static void main(String[] args) {
+    public static void main(String[] args) {
+      Shape circle = new Circle(5.0);
 
-      Shape circle = new Circle();
+      Shape redCircle = new RedShapeDecorator(new Circle(5.0), 20.0);
 
-      Shape redCircle = new RedShapeDecorator(new Circle());
-
-      Shape redRectangle = new RedShapeDecorator(new Rectangle());
+      Shape redRectangle = new RedShapeDecorator(new Rectangle(10.0), 8.0);
       System.out.println("Circle with normal border");
       circle.draw();
 
@@ -25,5 +24,6 @@ public class DecoratorPatternDemo {
 
       System.out.println("\nRectangle of red border");
       redRectangle.draw();
-   }
+
+    }
 }

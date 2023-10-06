@@ -11,12 +11,25 @@ package GOF.Decorator;
  */
 public abstract class ShapeDecorator implements Shape {
    protected Shape decoratedShape;
+   private double price;
 
-   public ShapeDecorator(Shape decoratedShape){
+    public ShapeDecorator(Shape decoratedShape, double price){
       this.decoratedShape = decoratedShape;
-   }
+      this.price = price;
+    }    
 
-   public void draw(){
-      decoratedShape.draw();
-   }	
+    public void draw(){
+        double totalCost = computeCost();
+        decoratedShape.draw();
+        System.out.println("Decoration Cost: " + totalCost);
+    }	
+    
+    @Override
+    public double getPrice() {
+        return price;
+    }
+
+    private double computeCost() {
+        return getPrice() + decoratedShape.getPrice();
+    }
 }

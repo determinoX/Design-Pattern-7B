@@ -11,4 +11,5 @@ package GOF.Decorator;
  */
 public interface Shape {
    void draw();
+   double getPrice();
 }
