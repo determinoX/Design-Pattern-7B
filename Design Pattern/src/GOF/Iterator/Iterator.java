@@ -10,6 +10,15 @@ package GOF.Iterator;
  * @author FA20-BSE-042
  */
 public class Iterator {
-   public boolean hasNext();
-   public Object next(); 
+   boolean hasNext();
+
+    Object next();
+
+    boolean hasPrevious();
+
+    Object previous();
+
+    void moveToLast();
+
+    void moveToFirst();
 }
