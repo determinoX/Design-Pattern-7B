@@ -9,7 +9,7 @@ package GOF.Iterator;
  *
  * @author FA20-BSE-042
  */
-public interface Iterator {
+public class Iterator {
    public boolean hasNext();
-   public Object next();
+   public Object next(); 
 }

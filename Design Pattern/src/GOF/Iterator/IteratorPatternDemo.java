@@ -12,11 +12,14 @@ package GOF.Iterator;
 public class IteratorPatternDemo {
 	
    public static void main(String[] args) {
-      NameRepository namesRepository = new NameRepository();
+      StudentRepository StudentRepository = new StudentRepository();
 
-      for(Iterator iter = namesRepository.getIterator(); iter.hasNext();){
+      for(Iterator iter = StudentRepository.getIterator(); iter.hasNext();){
          String name = (String)iter.next();
          System.out.println("Name : " + name);
+         System.out.println("RegNo : " + RegNo);
+          System.out.println("PhoneNo : " + PhoneNo);
+           System.out.println("Gender : " + Gender);
       } 	
    }
 }
