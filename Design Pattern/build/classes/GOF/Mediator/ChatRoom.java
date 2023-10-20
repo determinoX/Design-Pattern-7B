@@ -11,9 +11,26 @@ package GOF.Mediator;
  * @author FA20-BSE-042
  */
 import java.util.Date;
+import java.util.List;
 
 public class ChatRoom {
-   public static void showMessage(User user, String message){
-      System.out.println(new Date().toString() + " [" + user.getName() + "] : " + message);
-   }
+    public static void showMessage(User user, String message){
+        System.out.println(new Date().toString() + " [" + user.getName() + "] : " + message);
+    }
+    
+    public static void sendMessageToTarget(User sender, User target, String message){
+        System.out.println(new Date().toString() + " [" + sender.getName() + " -> " + target.getName() + "] : " + message);
+    }
+    
+    public static void sendMessageToAll(User sender, List<User> targets, String message){
+        StringBuilder targetNames = new StringBuilder();
+        
+        for (User target : targets) {
+            targetNames.append(target.getName()).append(", ");
+        }
+        
+        targetNames.delete(targetNames.length() - 2, targetNames.length());
+        System.out.println(new Date().toString() + " [" + sender.getName() + " -> " + targetNames + "] : " + message);
+        
+    }
 }
