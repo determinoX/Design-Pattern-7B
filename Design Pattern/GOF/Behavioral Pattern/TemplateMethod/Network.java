@@ -1,29 +1,25 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.TemplateMethod;
+package GOF.DP_Lab6.TemplateMethod.LabTask;
+
+import GOF.DP_Lab6.TemplateMethod.LabTask.*;
 
 /**
  *
- * @author FA20-BSE-042
+ * @author Zain
  */
+
 public abstract class Network {
     String userName;
     String password;
 
     Network() {}
 
-    /**
-     * Publish the data to whatever network.
-     */
-    public boolean post(String message) {
-        // Authenticate before posting. Every network uses a different
-        // authentication method.
+    public boolean post(Message message) {
         if (logIn(this.userName, this.password)) {
-            // Send the post data.
-            boolean result =  sendData(message.getBytes());
+            boolean result = sendData(message);
             logOut();
             return result;
         }
@@ -31,6 +27,20 @@ public abstract class Network {
     }
 
     abstract boolean logIn(String userName, String password);
-    abstract boolean sendData(byte[] data);
+    abstract boolean sendData(Message message);
     abstract void logOut();
+
+    protected void simulateNetworkLatency() {
+        try {
+            int i = 0;
+            System.out.println();
+            while (i < 10) {
+                System.out.print(".");
+                Thread.sleep(500);
+                i++;
+            }
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
 }

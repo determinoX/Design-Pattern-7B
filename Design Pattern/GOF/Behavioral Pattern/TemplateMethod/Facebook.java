@@ -1,14 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.TemplateMethod;
+package GOF.DP_Lab6.TemplateMethod.LabTask;
+
+import GOF.DP_Lab6.TemplateMethod.LabTask.*;
 
 /**
  *
- * @author FA20-BSE-042
+ * @author Zain
  */
+
 public class Facebook extends Network {
     public Facebook(String userName, String password) {
         this.userName = userName;
@@ -27,10 +29,10 @@ public class Facebook extends Network {
         return true;
     }
 
-    public boolean sendData(byte[] data) {
+    public boolean sendData(Message message) {
         boolean messagePosted = true;
         if (messagePosted) {
-            System.out.println("Message: '" + new String(data) + "' was posted on Facebook");
+            System.out.println("Message: '" + message.getDescription() + "' was posted on Facebook");
             return true;
         } else {
             return false;
@@ -39,19 +41,5 @@ public class Facebook extends Network {
 
     public void logOut() {
         System.out.println("User: '" + userName + "' was logged out from Facebook");
-    }
-
-    private void simulateNetworkLatency() {
-        try {
-            int i = 0;
-            System.out.println();
-            while (i < 10) {
-                System.out.print(".");
-                Thread.sleep(500);
-                i++;
-            }
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
     }
 }

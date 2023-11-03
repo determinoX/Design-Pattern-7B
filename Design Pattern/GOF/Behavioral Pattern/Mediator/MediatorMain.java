@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package GOF.DP_Lab5.Mediator.LabTask;
 
-package GOF.Mediator;
 
 /**
  *
- * @author FA20-BSE-042
+ * @author FA20-BSE-017
  */
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class MediatorMain {
         
         
         ChatRoom.sendMessageToTarget(mAli, comsatsUniversity, "Hello, COMSATS University!");
-        ChatRoom.sendMessageToAll(mAli, List.of(comsatsUniversity, nustUniversity, teacherAli, ahmad, ali), "Hello, everyone!");
+//        ChatRoom.sendMessageToAll(mAli, List.of(comsatsUniversity, nustUniversity, teacherAli, ahmad, ali), "Hello, everyone!");
 
     }
 }

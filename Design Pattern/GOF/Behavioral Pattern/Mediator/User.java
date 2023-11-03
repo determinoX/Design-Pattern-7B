@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package GOF.DP_Lab5.Mediator.LabTask;
 
-package GOF.Mediator;
 
 /**
  *
- * @author FA20-BSE-042
+ * @author FA20-BSE-017
  */
 public class User implements AbstractUser{
     private String name;

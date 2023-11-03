@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package GOF.Mediator;
+package GOF.DP_Lab5.Mediator.LabTask;
 
 /**
  *
- * @author FA20-BSE-042
+ * @author FA20-BSE-017
  */
 import java.util.Date;
 import java.util.List;
