@@ -4,6 +4,7 @@ import refactoring_guru.prototype.example.shapes.Circle;
 import refactoring_guru.prototype.example.shapes.Rectangle;
 import refactoring_guru.prototype.example.shapes.Shape;
 import refactoring_guru.prototype.example.shapes.Square;
+import refactoring_guru.prototype.example.shapes.HumanAvatar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,11 @@ public class Demo {
         square.height = 20;
         square.color = "blue";
         shapes.add(square);
+
+        HumanAvatar humanavatar = new HumanAvatar();
+        humanavatar.width = 10;
+        humanavatar.height = 20;
+        humanavatar.add(humanavatar);
 
         cloneAndCompare(shapes, shapesCopy);
     }
