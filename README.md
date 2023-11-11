@@ -6,6 +6,13 @@ Welcome to the Design-Pattern-7B repository! This repository is dedicated to pro
 - [Design Principles](#design-principles)
 - [Gang Of Four (GOF)](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF)
   - [Behavioral Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern)
+    - [ChainOfResponsibility](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/ChainOfResponsibility)
+    - [Iterator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Iterator)
+    - [Mediator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Mediator)
+    - [ObserverPattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/ObserverPattern)
+    - [Strategy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Strategy)
+    - [TemplateMethod](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/TemplateMethod)
+    - [Visitor](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Visitor)
   - [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern)
   - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
 
