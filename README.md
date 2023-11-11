@@ -14,6 +14,10 @@ Welcome to the Design-Pattern-7B repository! This repository is dedicated to pro
     - [TemplateMethod](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/TemplateMethod)
     - [Visitor](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Visitor)
   - [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern)
+    - [AbstractFactory](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/AbstractFactory)
+    - [Builder](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Builder)
+    - [Prototype](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Prototype)
+    - [Singleton](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Singleton)
   - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
 
 ## Design Principles
