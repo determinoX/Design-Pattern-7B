@@ -24,21 +24,21 @@ Welcome to the Design-Pattern-7B repository! This repository is dedicated to pro
 ## Design Principles
 
 ### [Behavioral Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern)
-ChainOfResponsibility
-Iterator
-Mediator
-ObserverPattern
-Strategy
-TemplateMethod
-Visitor
+- ChainOfResponsibility
+- Iterator
+- Mediator
+- ObserverPattern
+- Strategy
+- TemplateMethod
+- Visitor
 
 ### [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern)
-AbstractFactory
-Builder
-Prototype
-Singleton
+- AbstractFactory
+- Builder
+- Prototype
+- Singleton
 
 ### [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
-Decorator
+- Decorator
 
 
