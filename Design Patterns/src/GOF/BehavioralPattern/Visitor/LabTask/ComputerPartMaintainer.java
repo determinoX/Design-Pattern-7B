@@ -8,6 +8,7 @@ package GOF.BehavioralPattern.Visitor.LabTask;
  *
  * @author shafq
  */
-public class ComputerPartMaintainer {
-    
+public interface ComputerPartMaintainer {
+   void maintain(ComputerPart part);
 }
+

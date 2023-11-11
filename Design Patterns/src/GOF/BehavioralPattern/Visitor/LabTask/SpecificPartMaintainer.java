@@ -8,6 +8,12 @@ package GOF.BehavioralPattern.Visitor.LabTask;
  *
  * @author shafq
  */
-public class SpecificPartMaintainer {
-    
+public class SpecificPartMaintainer implements ComputerPartMaintainer {
+
+   @Override
+   public void maintain(ComputerPart part) {
+      // Implement maintenance logic for the specific part
+      System.out.println("Maintaining specific part: " + part.getClass().getSimpleName());
+   }
 }
+

@@ -8,6 +8,6 @@ package GOF.BehavioralPattern.Visitor.TutorialPointExample;
  *
  * @author shafq
  */
-public class ComputerPart {
-    
+public interface ComputerPart {
+   public void accept(ComputerPartVisitor computerPartVisitor);
 }

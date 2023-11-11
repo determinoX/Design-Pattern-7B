@@ -8,6 +8,10 @@ package GOF.BehavioralPattern.Visitor.TutorialPointExample;
  *
  * @author shafq
  */
-public class Mouse {
-    
+public class Mouse implements ComputerPart {
+
+   @Override
+   public void accept(ComputerPartVisitor computerPartVisitor) {
+      computerPartVisitor.visit(this);
+   }
 }

@@ -8,6 +8,11 @@ package GOF.BehavioralPattern.Visitor.LabTask;
  *
  * @author shafq
  */
-public class Multimedia {
-    
+public class Multimedia implements ComputerPart {
+
+   @Override
+   public void accept(ComputerPartVisitor computerPartVisitor) {
+      computerPartVisitor.visit(this);
+   }
 }
+
