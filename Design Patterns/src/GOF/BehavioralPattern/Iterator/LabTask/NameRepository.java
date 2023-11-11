@@ -8,35 +8,56 @@ package GOF.BehavioralPattern.Iterator.LabTask;
  *
  * @author shafq
  */
+
+
+// Implementation of the Container interface
 public class NameRepository implements Container {
-   public String names[] = {"Robert" , "John" ,"Julie" , "Lora"};
+    // Array of names
+    public String names[] = {"Robert", "John", "Julie", "Lora"};
 
-   @Override
-   public Iterator getIterator() {
-      return new NameIterator();
-   }
+    // Implementation of the getIterator method from the Container interface
+    @Override
+    public Iterator getIterator() {
+        return new NameIterator();
+    }
 
-   private class NameIterator implements Iterator {
+    // Inner class implementing the Iterator interface
+    private class NameIterator implements Iterator {
+        int index;
 
-      int index;
+        // Implementation of the hasNext method from the Iterator interface
+        @Override
+        public boolean hasNext() {
+            return index < names.length;
+        }
 
-      @Override
-      public boolean hasNext() {
-      
-         if(index < names.length){
-            return true;
-         }
-         return false;
-      }
+        // Implementation of the next method from the Iterator interface
+        @Override
+        public Object next() {
+            if (this.hasNext()) {
+                return names[index++];
+            }
+            return null;
+        }
 
-      @Override
-      public Object next() {
-      
-         if(this.hasNext()){
-            return names[index++];
-         }
-         return null;
-      }		
-   }
+        // Implementation of the previous method
+        public Object previous() {
+            if (index > 0) {
+                return names[--index];
+            }
+            return null;
+        }
+
+        // Implementation of the moveToLast method
+        public Object moveToLast() {
+            index = names.length - 1;
+            return names[index];
+        }
+
+        // Implementation of the moveToFirst method
+        public Object moveToFirst() {
+            index = 0;
+            return names[index];
+        }
+    }
 }
-

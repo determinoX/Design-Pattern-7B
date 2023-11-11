@@ -8,6 +8,7 @@ package GOF.BehavioralPattern.Iterator.TutorialPointExample;
  *
  * @author shafq
  */
-public class Iterator {
-    
+public interface Iterator {
+   public boolean hasNext();
+   public Object next();
 }

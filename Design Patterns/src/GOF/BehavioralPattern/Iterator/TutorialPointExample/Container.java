@@ -8,6 +8,6 @@ package GOF.BehavioralPattern.Iterator.TutorialPointExample;
  *
  * @author shafq
  */
-public class Container {
-    
+public interface Container {
+   public Iterator getIterator();
 }
