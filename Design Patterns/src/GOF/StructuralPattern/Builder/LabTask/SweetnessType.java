@@ -8,6 +8,10 @@ package GOF.StructuralPattern.Builder.LabTask;
  *
  * @author shafq
  */
-public class SweetnessType {
-    
+// Add this enum in a separate file
+public enum SweetnessType {
+    LOW,
+    MEDIUM,
+    HIGH
 }
+

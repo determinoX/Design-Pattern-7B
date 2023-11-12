@@ -8,6 +8,11 @@ package GOF.StructuralPattern.Builder.LabTask;
  *
  * @author shafq
  */
-public class Cup {
-    
+// Add a new Cup class for packing tea
+public class Cup implements Packing {
+    @Override
+    public String pack() {
+        return "Cup";
+    }
 }
+
