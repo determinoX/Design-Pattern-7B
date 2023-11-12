@@ -8,6 +8,6 @@ package GOF.CreationalPattern.AbstractFactory.TutorialPointExample;
  *
  * @author shafq
  */
-public class AbstractFactory {
-    
+public abstract class AbstractFactory {
+   abstract Shape getShape(String shapeType) ;
 }

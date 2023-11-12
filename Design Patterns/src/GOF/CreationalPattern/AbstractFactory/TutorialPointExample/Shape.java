@@ -8,6 +8,6 @@ package GOF.CreationalPattern.AbstractFactory.TutorialPointExample;
  *
  * @author shafq
  */
-public class Shape {
-    
+public interface Shape {
+   void draw();
 }
