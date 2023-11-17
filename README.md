@@ -21,7 +21,7 @@ Welcome to my Design-Pattern-7B repository! This repository is dedicated to prov
   - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
     - [Decorator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern/Decorator)
     - [Proxy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
-    - [Facade](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
+    - [Facade](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Facade)
 
 # Design Principles
 An up-to-date list of design patterns that I have learned so far.
