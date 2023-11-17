@@ -20,6 +20,8 @@ Welcome to my Design-Pattern-7B repository! This repository is dedicated to prov
     - [Singleton](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Singleton)
   - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
     - [Decorator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern/Decorator)
+    - [Proxy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
+    - [Facade](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
 
 # Design Principles
 An up-to-date list of design patterns that I have learned so far.
@@ -64,5 +66,12 @@ Singleton is a creational design pattern that lets you ensure that a class has o
 ## Decorator
 ### Intent
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+## Proxy
+### Intent
+Provide a surrogate or placeholder for another object to control access to it.
+## Facade
+### Intent
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the 
+subsystem easier to use.
 
 
