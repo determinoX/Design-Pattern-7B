@@ -9,6 +9,6 @@ package GOF.StructuralPattern.Proxy.LabTask;
  *
  * @author FA20-BSE-042
  */
-public class Image {
-    
+public interface Image {
+   void display();
 }
