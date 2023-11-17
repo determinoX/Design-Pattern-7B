@@ -4,28 +4,28 @@ Welcome to my Design-Pattern-7B repository! This repository is dedicated to prov
 
 ## Table of Contents
 - [Design Principles](#design-principles)
-- [Gang Of Four (GOF)](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF)
-  - [Behavioral Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern)
-    - [ChainOfResponsibility](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/ChainOfResponsibility)
-    - [Iterator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Iterator)
-    - [Mediator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Mediator)
-    - [ObserverPattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/ObserverPattern)
-    - [Strategy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Strategy)
-    - [TemplateMethod](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/TemplateMethod)
-    - [Visitor](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern/Visitor)
-  - [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern)
-    - [AbstractFactory](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/AbstractFactory)
-    - [Builder](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Builder)
-    - [Prototype](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Prototype)
-    - [Singleton](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern/Singleton)
-  - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
-    - [Decorator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern/Decorator)
+- [Gang Of Four (GOF)](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF)
+  - [Behavioral Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern)
+    - [ChainOfResponsibility](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/ChainOfResponsibility)
+    - [Iterator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Iterator)
+    - [Mediator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Mediator)
+    - [ObserverPattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Observer)
+    - [Strategy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Strategy)
+    - [TemplateMethod](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/TemplateMethod)
+    - [Visitor](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Visitor)
+  - [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern)
+    - [AbstractFactory](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/AbstractFactory)
+    - [Builder](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Builder)
+    - [Prototype]()
+    - [Singleton]()
+  - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern)
+    - [Decorator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Decorator)
     - [Proxy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
     - [Facade](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Facade)
 
 # Design Principles
 An up-to-date list of design patterns that I have learned so far.
-# [Behavioral Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Behavioral%20Pattern)
+# [Behavioral Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern)
 ## ChainOfResponsibility
 ### Intent
 Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
@@ -48,7 +48,7 @@ Template Method is a behavioral design pattern that defines the skeleton of an a
 ### Intent
 Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
 
-# [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Creational%20Pattern)
+# [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern)
 ## AbstractFactory
 ### Intent
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
@@ -62,7 +62,7 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 ### Intent
 Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
-# [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Pattern/GOF/Structural%20Pattern)
+# [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern)
 ## Decorator
 ### Intent
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
