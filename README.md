@@ -16,12 +16,13 @@ Welcome to my Design-Pattern-7B repository! This repository is dedicated to prov
   - [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern)
     - [AbstractFactory](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/AbstractFactory)
     - [Builder](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Builder)
-    - [Prototype]()
-    - [Singleton]()
+    - [Prototype](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Prototype)
+    - [Singleton](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Singleton)
   - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern)
     - [Decorator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Decorator)
     - [Proxy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
     - [Facade](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Facade)
+    - [Adapter](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Adapter)
 
 # Design Principles
 An up-to-date list of design patterns that I have learned so far.
