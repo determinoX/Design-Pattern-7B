@@ -5,7 +5,7 @@ vary the class that's instantiated, whereas an object creational pattern will de
 another object. Creational patterns become important as systems evolve to depend more on object composition than class 
 inheritance.
 
-## Abstract Factory
-## Builder
-## Prototype
-## Singleton
+- Abstract Factory
+- Builder
+- Prototype
+- Singleton
