@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package GOF.StructuralPattern.Adapter.LabTask;
-import GOF.StructuralPattern.Adapter.LabTask.Mp4Player;
+
 /**
  *
  * @author shafq
