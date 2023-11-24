@@ -4,6 +4,7 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 log requests, and support undoable operations
 ## Applicability
 Use the Command pattern when you want to
+
 ● parameterize objects by an action to perform, as MenuItem objects did above. You can express such parameterization in a procedural language with a callback function, that is, a function that's registered somewhere to be called at a later point. Commands are an object-oriented replacement for callbacks.
 
 ● specify, queue, and execute requests at different times. A Command object can have a lifetime independent of the original request. If the receiver of a request can be represented in an address spaceindependent way, then you can transfer a command object for the request to a different process and fulfill the request there.
