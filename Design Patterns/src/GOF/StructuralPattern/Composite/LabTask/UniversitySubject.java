@@ -10,7 +10,7 @@ package GOF.StructuralPattern.Composite.LabTask;
  * @author FA20-BSE-042
  */
 import java.util.*;
-import GOF.StructuralPattern.Composite.LabTask.*;
+import GOF.StructuralPattern.Composite.LabTask.Observer;
 //public class UniversitySubject {
 
 class UniversitySubject {

@@ -9,7 +9,7 @@ package GOF.StructuralPattern.Composite.LabTask;
  *
  * @author FA20-BSE-042
  */
-abstract class DOO extends BaseEmployee {
+class DOO extends BaseEmployee {
     public DOO(String name, double salary) {
         super(name, salary);
     }

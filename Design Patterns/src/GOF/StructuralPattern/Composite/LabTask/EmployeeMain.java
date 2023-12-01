@@ -10,6 +10,7 @@ package GOF.StructuralPattern.Composite.LabTask;
  * @author FA20-BSE-042
  */
 import java.util.*;
+import GOF.StructuralPattern.Composite.LabTask.*;
 
 public class EmployeeMain {
     public static void main(String[] args) {

@@ -9,8 +9,8 @@ package GOF.StructuralPattern.Composite.LabTask;
  *
  * @author FA20-BSE-042
  */
-public class Observer {
+
     interface Observer {
     void update(double bonus);
 }
-}
+

@@ -9,7 +9,7 @@ package GOF.StructuralPattern.Composite.LabTask;
  *
  * @author FA20-BSE-042
  */
-abstract class HOD extends BaseEmployee {
+class HOD extends BaseEmployee {
     public HOD(String name, double salary) {
         super(name, salary);
     }
