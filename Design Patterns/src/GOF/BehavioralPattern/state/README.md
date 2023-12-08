@@ -10,3 +10,12 @@ Use the State pattern in either of the following cases:
 
 # Structure Diagram
 ![state](https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/state.gif)
+# Participants
+- Context (TCPConnection)
+  - defines the interface of interest to clients.
+  - maintains an instance of a ConcreteState subclass that defines the current state.
+- State (TCPState)
+  - defines an interface for encapsulating the behavior associated with a particular state of the Context.
+- ConcreteState subclasses (TCPEstablished, TCPListen, TCPClosed)
+  - each subclass implements a behavior associated with a state of the Context.
+
