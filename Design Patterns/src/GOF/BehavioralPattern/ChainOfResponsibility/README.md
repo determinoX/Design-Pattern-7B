@@ -12,3 +12,13 @@ Use Chain of Responsibility when :
 ● the set of objects that can handle a request should be specified dynamically. 
 # Structure Diagram
 ![COR](https://media.geeksforgeeks.org/wp-content/uploads/desigmpatternuml1.png)
+# Participants
+- Handler (HelpHandler)
+  - defines an interface for handling requests.
+  - (optional) implements the successor link.
+- ConcreteHandler (PrintButton, PrintDialog)
+  - handles requests it is responsible for.
+  - can access its successor.
+  - if the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor.
+- Client
+  - initiates the request to a ConcreteHandler object on the chain.
