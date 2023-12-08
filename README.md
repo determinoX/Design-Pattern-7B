@@ -36,7 +36,7 @@ Each design pattern solves a specific problem, providing a general reusable solu
     - [Facade](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Facade)
     - [Adapter](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Adapter)
     - [Composite](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Composite)
-    - [Flyweight]() 
+    - [Flyweight](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Flyweight) 
 
 
 
