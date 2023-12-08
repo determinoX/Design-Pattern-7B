@@ -5,10 +5,14 @@ communication between them. These patterns characterize complex control flow tha
 at run-time. They shift your focus away from flow of control to let you concentrate just on the way 
 objects are interconnected.
 
-- Chain Of Responsbility
+- Chain of Responsibility
+- Command
+- Interpreter
 - Iterator
 - Mediator
+- Memento
 - Observer
+- State
 - Strategy
 - Template Method
 - Visitor
