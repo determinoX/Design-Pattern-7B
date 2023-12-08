@@ -17,3 +17,19 @@ effects of a previous call to Execute. Executed commands are stored in a history
 ● structure a system around high-level operations built on primitives operations. Such a structure is common in information systems that support transactions. A transaction encapsulates a set of changes to data. The Command pattern offers a way to model transactions. Commands have a common interface, letting you invoke all transactions the same way. The pattern also makes it easy to extend the system with new transactions
 ## Structure
 ![COR](https://www.cs.mcgill.ca/~hv/classes/CS400/01.hchen/doc/command/command.gif)
+# Participants
+- Command
+  - declares an interface for executing an operation.
+  
+- ConcreteCommand (PasteCommand, OpenCommand)
+  - defines a binding between a Receiver object and an action.
+  - implements Execute by invoking the corresponding operation(s) on Receiver.
+ 
+- Client (Application)
+  - creates a ConcreteCommand object and sets its receiver.
+    
+- Invoker (MenuItem)
+  - asks the command to carry out the request.
+    
+- Receiver (Document, Application)
+  - knows how to perform the operations associated with carrying out a request. Any class may serve as a Receiver.
