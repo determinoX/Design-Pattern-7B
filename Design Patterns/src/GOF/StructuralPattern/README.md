@@ -6,6 +6,9 @@ the properties of its parent classes. This pattern is particularly useful for ma
 class libraries work together
 
 - Adapter
+- Bridge
+- Composite
 - Decorator
 - Facade
+- Flyweight
 - Proxy
