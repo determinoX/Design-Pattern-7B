@@ -53,6 +53,12 @@ public class UI {
         next.addActionListener(e -> textField.setText(player.getState().onNext()));
         JButton prev = new JButton("Prev");
         prev.addActionListener(e -> textField.setText(player.getState().onPrevious()));
+          JButton reset = new JButton("Reset");
+        reset.addActionListener(e -> {
+            player.resetPlayer();
+            textField.setText("Player restored to default state.");
+        });
+        buttons.add(reset);
         frame.setVisible(true);
         frame.setSize(300, 100);
         buttons.add(play);

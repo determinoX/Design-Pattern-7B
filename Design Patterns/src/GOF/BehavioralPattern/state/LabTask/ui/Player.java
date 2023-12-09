@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import GOF.BehavioralPattern.state.LabTask.states.State;
 import GOF.BehavioralPattern.state.LabTask.states.ReadyState;
+import GOF.BehavioralPattern.state.LabTask.states.DamagedState;
 
 public class Player {
     private State state;
@@ -11,6 +12,7 @@ public class Player {
     private List<String> playlist = new ArrayList<>();
     private int currentTrack = 0;
     private long track5StartTime = 0;
+    
 
     private TrackIterator trackIterator;
 
@@ -39,7 +41,7 @@ public class Player {
         return playing;
     }
 
-     public String startPlayback() {
+ public String startPlayback() {
         String currentTrackInfo = trackIterator.next();
         if (currentTrackInfo.equals("Track 5")) {
             track5StartTime = System.currentTimeMillis();
@@ -47,14 +49,12 @@ public class Player {
         return "Playing " + currentTrackInfo;
     }
 
-    public String nextTrack() {
-        // Check if current track is Track 5 and duration exceeds 3 seconds
+      public String nextTrack() {
         if (track5StartTime > 0 && playlist.get(currentTrack).equals("Track 5")) {
             long currentTime = System.currentTimeMillis();
-            if (currentTime - track5StartTime > 3000) {
-                // Alert user about technical damage and stop playing
-                setPlaying(false);
-                return "Track 5 exceeded 3 seconds, player technically damaged. Reset the player.";
+            if (currentTime - track5StartTime > 4000) {
+                changeState(new DamagedState(this));
+                return "Player state changed to Damaged. Reset to restore.";
             }
         }
         currentTrack++;
@@ -80,4 +80,9 @@ public String previousTrack() {
     }
     return "Playing " + playlist.get(currentTrack);
 }
+  public void resetPlayer() {
+        // Implement logic to reset the player to default state
+        // Example: Set state to ReadyState, reset track, etc.
+        changeState(new ReadyState(this));
+    }
 }
