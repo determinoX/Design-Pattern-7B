@@ -20,6 +20,7 @@ public class UI {
         this.player = player;
     }
 
+
     public void init() {
         JFrame frame = new JFrame("Test player");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,8 +34,19 @@ public class UI {
         // Context delegates handling user's input to a state object. Naturally,
         // the outcome will depend on what state is currently active, since all
         // states can handle the input differently.
+        
         JButton play = new JButton("Play");
-        play.addActionListener(e -> textField.setText(player.getState().onPlay()));
+        play.addActionListener(e -> {
+            String result = player.getState().onPlay();
+            if (result.contains("Track 5 exceeded 3 seconds")) {
+                // Display alert to reset the player
+                JOptionPane.showMessageDialog(null, result, "Technical Damage", JOptionPane.ERROR_MESSAGE);
+                // Reset player or perform necessary actions
+                // Example: player.resetPlayer();
+            } else {
+                textField.setText(result);
+            }
+        });
         JButton stop = new JButton("Stop");
         stop.addActionListener(e -> textField.setText(player.getState().onLock()));
         JButton next = new JButton("Next");

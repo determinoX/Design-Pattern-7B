@@ -1,20 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package GOF.BehavioralPattern.state.LabTask.states;
 
-/**
- *
- * @author FA20-BSE-042
- */
 import GOF.BehavioralPattern.state.LabTask.ui.Player;
 
-/**
- * Concrete states provide the special implementation for all interface methods.
- */
 public class LockedState extends State {
+    private long track5StartTime = 0;
 
     LockedState(Player player) {
         super(player);
@@ -33,17 +22,34 @@ public class LockedState extends State {
 
     @Override
     public String onPlay() {
+        if (player.getCurrentTrackInfo().equals("Track 5")) {
+            track5StartTime = System.currentTimeMillis();
+        }
         player.changeState(new ReadyState(player));
         return "Ready";
     }
 
     @Override
     public String onNext() {
+        if (player.getCurrentTrackInfo().equals("Track 5") && track5StartTime > 0) {
+            long currentTime = System.currentTimeMillis();
+            if (currentTime - track5StartTime > 3000) {
+                player.setPlaying(false);
+                return "Track 5 exceeded 3 seconds, player technically damaged. Reset the player.";
+            }
+        }
         return "Locked...";
     }
 
     @Override
     public String onPrevious() {
+        if (player.getCurrentTrackInfo().equals("Track 5") && track5StartTime > 0) {
+            long currentTime = System.currentTimeMillis();
+            if (currentTime - track5StartTime > 3000) {
+                player.setPlaying(false);
+                return "Track 5 exceeded 3 seconds, player technically damaged. Reset the player.";
+            }
+        }
         return "Locked...";
     }
 }
