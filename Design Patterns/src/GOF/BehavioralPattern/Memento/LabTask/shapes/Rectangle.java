@@ -5,18 +5,17 @@
  */
 package GOF.BehavioralPattern.Memento.refactoringguru.shapes;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
 /**
  *
  * @author FA20-BSE-042
  */
-public class Oval extends BaseShape {
-     private int width;
+import java.awt.*;
+
+public class Rectangle extends BaseShape {
+    private int width;
     private int height;
 
-    public Oval(int x, int y, int width, int height, Color color) {
+    public Rectangle(int x, int y, int width, int height, Color color) {
         super(x, y, color);
         this.width = width;
         this.height = height;
