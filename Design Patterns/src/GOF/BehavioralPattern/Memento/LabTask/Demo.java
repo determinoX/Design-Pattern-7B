@@ -14,6 +14,7 @@ import GOF.BehavioralPattern.Memento.LabTask.shapes.Circle;
 import GOF.BehavioralPattern.Memento.LabTask.shapes.CompoundShape;
 import GOF.BehavioralPattern.Memento.LabTask.shapes.Dot;
 import GOF.BehavioralPattern.Memento.LabTask.shapes.Rectangle;
+import GOF.BehavioralPattern.Memento.LabTask.shapes.Oval;
 
 import java.awt.*;
 
@@ -22,6 +23,7 @@ public class Demo {
         Editor editor = new Editor();
         editor.loadShapes(
                 new Circle(10, 10, 10, Color.BLUE),
+                
 
                 new CompoundShape(
                         new Circle(110, 110, 50, Color.RED),
@@ -35,6 +37,7 @@ public class Demo {
                         new Dot(360, 360, Color.GREEN),
                         new Dot(360, 240, Color.GREEN)
                 )
+                
         );
     }
 }
