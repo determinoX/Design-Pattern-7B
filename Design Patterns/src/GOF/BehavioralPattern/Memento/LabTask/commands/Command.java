@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GOF.BehavioralPattern.Memento.refactoringguru.commands;
+package GOF.BehavioralPattern.Memento.LabTask.commands;
 
 /**
  *

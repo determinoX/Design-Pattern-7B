@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GOF.BehavioralPattern.Memento.refactoringguru.history;
+package GOF.BehavioralPattern.Memento.LabTask.history;
 
 /**
  *
  * @author FA20-BSE-042
  */
-import GOF.BehavioralPattern.Memento.refactoringguru.editor.Editor;
+import GOF.BehavioralPattern.Memento.LabTask.editor.Editor;
 
 public class Memento {
     private String backup;

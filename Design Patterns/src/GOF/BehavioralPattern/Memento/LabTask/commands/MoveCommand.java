@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GOF.BehavioralPattern.Memento.refactoringguru.commands;
+package GOF.BehavioralPattern.Memento.LabTask.commands;
 
 /**
  *
  * @author FA20-BSE-042
  */
-import GOF.BehavioralPattern.Memento.refactoringguru.editor.Editor;
-import GOF.BehavioralPattern.Memento.refactoringguru.shapes.Shape;
+import GOF.BehavioralPattern.Memento.LabTask.editor.Editor;
+import GOF.BehavioralPattern.Memento.LabTask.shapes.Shape;
 
 public class MoveCommand implements Command {
     private Editor editor;
