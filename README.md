@@ -27,7 +27,7 @@ Each design pattern solves a specific problem, providing a general reusable solu
     - [Visitor](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Visitor)
     - [Command](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Command)
     - [State]( https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/state)
-    - [Interpreter]() ✗
+    - [Interpreter](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern/Interpreter) 
     - [Memento]() ✗
   - [Creational Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern)
     - [AbstractFactory](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/AbstractFactory)
