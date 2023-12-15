@@ -5,10 +5,10 @@ consider how multiple inheritance mixes two or more classes into one. The result
 the properties of its parent classes. This pattern is particularly useful for making independently developed 
 class libraries work together
 
-- Adapter
-- Bridge
-- Composite
 - Decorator
-- Facade
-- Flyweight
 - Proxy
+- Facade
+- Adapter
+- Composite
+- Flyweight
+- Bridge ✗
