@@ -1,4 +1,6 @@
 you can view the video on onedrive as well
 
 
-[Link](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern](https://pern-my.sharepoint.com/:v:/g/personal/fa20-bse-042_cuiatd_edu_pk/EXwYhh3u6oZGmDHjdXGicuQBPe-4fpX7ZEfZsIZ-Teyg9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p3GZoH)https://pern-my.sharepoint.com/:v:/g/personal/fa20-bse-042_cuiatd_edu_pk/EXwYhh3u6oZGmDHjdXGicuQBPe-4fpX7ZEfZsIZ-Teyg9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p3GZoH)
+This is [OpenAI][1]'s website.
+
+[1]: https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/BehavioralPattern](https://pern-my.sharepoint.com/:v:/g/personal/fa20-bse-042_cuiatd_edu_pk/EXwYhh3u6oZGmDHjdXGicuQBPe-4fpX7ZEfZsIZ-Teyg9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p3GZoH)https://pern-my.sharepoint.com/:v:/g/personal/fa20-bse-042_cuiatd_edu_pk/EXwYhh3u6oZGmDHjdXGicuQBPe-4fpX7ZEfZsIZ-Teyg9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p3GZoH
