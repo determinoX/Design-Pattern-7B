@@ -34,7 +34,7 @@ Each design pattern solves a specific problem, providing a general reusable solu
     - [Builder](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Builder)
     - [Prototype](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Prototype)
     - [Singleton](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/Singleton)
-    -  [Factory Method]() ✗
+    -  [Factory Method](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/CreationalPattern/FactoryMethod) 
   - [Structural Pattern](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern)
     - [Decorator](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Decorator)
     - [Proxy](https://github.com/determinoX/Design-Pattern-7B/tree/main/Design%20Patterns/src/GOF/StructuralPattern/Proxy)
