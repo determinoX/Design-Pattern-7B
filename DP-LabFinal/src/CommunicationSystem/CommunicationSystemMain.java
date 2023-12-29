@@ -24,40 +24,40 @@ public class CommunicationSystemMain {
         CommunicationMediator mediator = new CommunicationMediator();
         
         // Create stakeholders
-        Stakeholder alice = new Stakeholder();
-        Stakeholder bob = new Stakeholder();
-        Stakeholder charlie = new Stakeholder();
+        Stakeholder talah = new Stakeholder();
+        Stakeholder fahad = new Stakeholder();
+        Stakeholder ehsan = new Stakeholder();
 
         // Add stakeholders to mediator
-        mediator.addStakeholder(alice);
-        mediator.addStakeholder(bob);
-        mediator.addStakeholder(charlie);
+        mediator.addStakeholder(talah);
+        mediator.addStakeholder(fahad);
+        mediator.addStakeholder(ehsan);
 
-        // Facade for easy interface
+        
         CommunicationFacade facade = new CommunicationFacade();
         facade.sendMessageToAll("Broadcast message using facade");
 
-        // Strategy for adopting different communication methods
+       
         CommunicationStrategy highSeverityStrategy = new HighSeverityStrategy();
         CommunicationStrategy lowSeverityStrategy = new LowSeverityStrategy();
 
         highSeverityStrategy.applyCommunicationMethod("High");
         lowSeverityStrategy.applyCommunicationMethod("Low");
 
-        // Builder for creating different communication objects
+      
         CommunicationBuilder messageBuilder = new MessageBuilder();
         messageBuilder.build();
         CommunicationObject message = messageBuilder.getResult();
 
-        // Iterator for iterating through stakeholders
-        List<Stakeholder> stakeholdersList = Arrays.asList(alice, bob, charlie);
+        
+        List<Stakeholder> stakeholdersList = Arrays.asList(talah, fahad, ehsan);
         StakeholderIterator iterator = new StakeholderIterator(stakeholdersList);
         while (iterator.hasNext()) {
             Stakeholder currentStakeholder = iterator.next();
-            // Do something with each stakeholder
+            
         }
 
-        // Observer for real-time communication among stakeholders
+        
         StakeholderObserver observer = new StakeholderObserver() {
             @Override
             public void update(String message) {
@@ -65,12 +65,14 @@ public class CommunicationSystemMain {
             }
         };
 
-        alice.addObserver(observer);
-        bob.addObserver(observer);
-        charlie.addObserver(observer);
+        talah.addObserver(observer);
+        fahad.addObserver(observer);
+        ehsan.addObserver(observer);
 
-        // Simulate message reception
-        mediator.sendMessage("Emergency message", alice);
+        
+        mediator.sendMessage("Emergency message", talah);
+        mediator.sendMessage("Polling Station will be closed in 10minutes", talah);
+        
     }
 }
 
